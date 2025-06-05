@@ -47,20 +47,6 @@ gradlew.bat build
 ./gradlew run
 ```
 
-## Sample Input File (sample.yml)
-
-```yaml
-stages:
-- build
-- test
-
-build_job:
-stage: build
-script:
- - echo "Building..."
-image: ubuntu
-```
-
 ## Testing
 
 To run tests:
